@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\MathPlus\MathPlus\bin\Debug\netstandard2.0\MathPlus.deps.json
+C:\Users\USER\source\repos\MathPlus\MathPlus\bin\Debug\netstandard2.0\MathPlus.dll
+C:\Users\USER\source\repos\MathPlus\MathPlus\bin\Debug\netstandard2.0\MathPlus.pdb
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.AssemblyInfo.cs
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.dll
+C:\Users\USER\source\repos\MathPlus\MathPlus\obj\Debug\netstandard2.0\MathPlus.pdb
