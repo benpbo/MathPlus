@@ -87,10 +87,10 @@ C:\Users\USER\source\repos\MathPlus\MathPlusTests\bin\Debug\netcoreapp3.1\zh-Han
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\bin\Debug\netcoreapp3.1\MathPlus.dll
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\bin\Debug\netcoreapp3.1\MathPlus.pdb
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.csprojAssemblyReference.cache
-C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.AssemblyInfo.cs
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.csproj.CopyComplete
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.dll
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.pdb
 C:\Users\USER\source\repos\MathPlus\MathPlusTests\obj\Debug\netcoreapp3.1\MathPlusTests.genruntimeconfig.cache
+C:\Users\USER\source\repos\MathPlus\MathPlusTests\bin\Debug\netcoreapp3.1\testhost.exe

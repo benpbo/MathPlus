@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+L4RDhW18aifk9JlRCqJc5ZE6U2lP77bDPzGcOvBBbBrE8gAZ5Jxg7vVMijUUK6LHCikcyEE611zOZZMPiiIQ==",
+  "dgSpecHash": "IZqb/pOwCTM9JfG+lGMHqdVA5l/SXmtlJrS4hyDivlkcEUD43Gj0E9AtTTFJT5NyVqwgv1V/SryZNkJOVZeajA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
