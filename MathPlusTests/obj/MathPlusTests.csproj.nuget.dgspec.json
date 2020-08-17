@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj": {}
+    "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj": {
+    "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj",
         "projectName": "MathPlusTests",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj",
+        "projectPath": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlusTests\\MathPlusTests.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlusTests\\obj\\",
+        "outputPath": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlusTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj"
+              "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj": {
+                "projectPath": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj"
               }
             }
           }
@@ -47,21 +47,19 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.0, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.7.0, )"
+              "version": "[16.5.0, )"
             },
             "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.2.0, )"
             }
           },
           "imports": [
@@ -83,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj": {
+    "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj",
         "projectName": "MathPlus",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj",
+        "projectPath": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\MathPlus.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\MathPlus\\MathPlus\\obj\\",
+        "outputPath": "D:\\VisualStudio\\source\\repos\\MathPlus\\MathPlus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -100,14 +98,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -118,7 +116,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -130,7 +128,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
