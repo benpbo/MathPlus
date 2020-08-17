@@ -1,12 +1,15 @@
-﻿namespace MathPlus.LinearAlg.Matrices
+﻿using System.Linq;
+using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace MathPlus.LinearAlg.Matrices
 {
-    using System.Linq;
     using Vectors;
 
-    public class Matrix
+    public class Matrix : IEquatable<Matrix>
     {
         protected double[,] values;
-        public bool isSquare { get => values.GetLength(0) == values.GetLength(1); }
+        public bool IsSquare { get => values.GetLength(0) == values.GetLength(1); }
         public Matrix(double[,] values)
         {
             this.values = new double[values.GetLength(0), values.GetLength(1)];
@@ -46,7 +49,7 @@
             Vector final = Vector.GetZeroVector(m.values.GetLength(1));
             for (int i = 0; i < vectors.Length; i++)
             {
-                final += u.GetValueAtIndex(i) * vectors[i];
+                final += u[i] * vectors[i];
             }
 
             return final;
@@ -58,7 +61,9 @@
         {
             if (a.values.GetLength(0) != b.values.GetLength(1)) return null;
 
-            int n = a.values.GetLength(1); int m = a.values.GetLength(0); int p = b.values.GetLength(0);
+            int n = a.values.GetLength(1);
+            int m = a.values.GetLength(0); // = b.values.GetLength(1)
+            int p = b.values.GetLength(0);
 
             double[,] c = new double[p, n];
             for (int i = 0; i < n; i++)
@@ -80,6 +85,12 @@
 
         public static Vector operator *(Matrix m, Vector u) => LinearTransformation(m, u);
 
+        public double this[int i, int j]
+        {
+            get => this.values[i, j];
+            set => this.values[i, j] = value;
+        }
+
         public double[] GetColumn(int columnNumber)
         {
             return Enumerable.Range(0, values.GetLength(0))
@@ -92,6 +103,21 @@
             return Enumerable.Range(0, values.GetLength(1))
                     .Select(x => values[rowNumber, x])
                     .ToArray();
+        }
+
+        public bool Equals([AllowNull] Matrix other)
+        {
+            if (this.values.GetLength(0) != other.values.GetLength(0) || this.values.GetLength(1) != other.values.GetLength(1)) return false;
+            
+            for (int i = 0; i < this.values.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.values.GetLength(1); j++)
+                {
+                    if (this[i, j] != other[i, j]) return false;
+                }
+            }
+
+            return true;
         }
     }
 }

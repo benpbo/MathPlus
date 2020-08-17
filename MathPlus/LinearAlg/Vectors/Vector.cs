@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Intrinsics;
 
 namespace MathPlus.LinearAlg.Vectors
 {
@@ -18,11 +19,6 @@ namespace MathPlus.LinearAlg.Vectors
             }
         }
         public Vector(Vector other) : this(other.values) { }
-
-        public double this[int i] {
-            get => values[i];
-            set => values[i] = value;
-        }
         
         public static Vector GetZeroVector(int Rank)
         {
@@ -88,7 +84,15 @@ namespace MathPlus.LinearAlg.Vectors
         public static Vector operator *(double scalar, Vector u) => ScalarMultiplication(scalar, u);
         public static double operator *(Vector u, Vector v) => DotProduct(u, v);
 
-        public double GetValueAtIndex(int i) => values[i];
+        public double GetValue(int i) => values[i];
+
+        public double SetValue(int i, double value) => values[i] = value;
+
+        public double this[int i]
+        {
+            get => GetValue(i);
+            set => SetValue(i, value);
+        }
 
         public override string ToString()
         {

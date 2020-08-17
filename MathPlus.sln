@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPlus", "MathPlus\MathPl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPlusTests", "MathPlusTests\MathPlusTests.csproj", "{BE44F7E1-3FF0-4C9B-898E-3D3CE6015D55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPlusTimeTests", "MathPlusTimeTests\MathPlusTimeTests.csproj", "{8CCD662F-D4B3-43B8-BA18-3F0C76C0525E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE44F7E1-3FF0-4C9B-898E-3D3CE6015D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE44F7E1-3FF0-4C9B-898E-3D3CE6015D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE44F7E1-3FF0-4C9B-898E-3D3CE6015D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCD662F-D4B3-43B8-BA18-3F0C76C0525E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCD662F-D4B3-43B8-BA18-3F0C76C0525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCD662F-D4B3-43B8-BA18-3F0C76C0525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCD662F-D4B3-43B8-BA18-3F0C76C0525E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
